@@ -1,0 +1,143 @@
+/* Main container styles */
+.mainpage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  background-color: #f4f4f4; /* Adjust background as needed */
+}
+
+/* Navbar styling */
+.mainpage-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8245b7;
+  padding: 10px 20px;
+  color: white;
+}
+
+.mainpage-logo {
+  display: flex;
+  align-items: center;
+}
+
+.mainpage-logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav ul li:hover {
+  color: #f0f0f0;
+}
+
+.profile {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none; /* Default state */
+  position: absolute;
+  background-color: rgb(153, 122, 169);
+  border: 1px solid #000000;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu.open {
+  display: block; /* Only show when "open" class is added */
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu li:hover {
+  background-color: #8418dc;
+}
+
+/* Content styling */
+.mainpage-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.mainpage-card {
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainpage-card-img {
+  width: 100%;
+  height: auto;
+}
+
+.mainpage-card p {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Footer styling */
+.mainpage-footer {
+  background-color: #85559f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  flex-shrink: 0;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.mainpage-rights {
+  margin: 0;
+}
+
+/* Day Streak Box - Positioned at the bottom-right */
+.mainpage-day-streak {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #b3abc6;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-right: 120px;
+  margin-bottom: 90px;
+}
+
+.mainpage-streak {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.mainpage-streak span {
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
