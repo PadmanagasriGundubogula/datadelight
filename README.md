@@ -90,12 +90,11 @@ Since your backend is built with Node.js, the command to start the backend shoul
 ## Team Members
 
 - **Anjani**: Team Lead 
+- **Padma**: Junior Frontend Developer
+- **Akshay**: Junior Frontend Developer
 - **Bhavya**: Senior Backend Developer
 - **Abhinaya**: Junior Backend Developer
 - **Gunasekhar**: Senior NLP Developer
 - **Pavan**: Senior NLP Developer
 - **Jyothika**: Senior NLP Developer
 - **Charishma**: Senior Frontend Developer
-- **Padma**: Junior Frontend Developer
-- **Akshay**: Junior Frontend Developer
-
